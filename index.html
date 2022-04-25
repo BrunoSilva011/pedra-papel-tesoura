@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra papel tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pedra, Papel e Tesoura</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="usu-label" class="badge">Usuário</div>
+        <div id="comp-label" class="badge">Comp</div>
+        <span id="pontos-user">0</span>:<span id="pontos-comp">0</span>
+    </div>
+
+    <div class="resultado">
+        <p>Papel embrulha pedra. Você ganhou!</p>
+    </div>
+
+    <div class="escolhas">
+        <div class="escolha" id="r">
+            <img src="https://img.icons8.com/color/50/000000/hand-rock.png"/>
+        </div>
+        <div class="escolha" id="p">
+            <img src="https://img.icons8.com/color/48/000000/hand.png"/>
+        </div>
+        <div class="escolha" id="s">
+            <img src="https://img.icons8.com/color/48/000000/hand-scissors--v2.png"/>
+        </div>
+    </div>
+
+
+    <p id="acao-mensagem">Faça um movimento</p>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
